@@ -1,28 +1,51 @@
 @import "../../css/app.css";
 .navbar {
     height: 8vh;
-    width: 100vw;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
-.navLeft > img {
-    max-height: 100px;
-    max-width: 100px;
-}
+
 .logoImg {
-    max-height: 100px;
-    max-width: 100px;
+    margin-top: 1rem;
+    max-height: 9rem;
+    max-width: 9rem;
+    border-radius: 10px;
 }
-.navRight {
+.navRight ul,
+li {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    flex-direction: row;
+}
+.navRight li a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
 }
 
-.navRight:last-child:hover {
+#blueBG {
+    transition: color 1s ease-in-out;
     background-color: var(--primary);
+    border-radius: 50px;
+
+    color: white;
+}
+
+.navRight li a:hover {
+    /* transition: color 1s ease;
+    background-color: #6a96ba;
+    border-radius: 50px; */
+    transform: scale(1.1);
+}
+#blueBG:hover {
+    transform: scale(1.1);
 }
 /* footerStyles */
 .footer {
@@ -30,9 +53,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f2f2f2;
 }
 
 .footer-content {
     text-align: center;
+    position: absolute;
+    bottom: 0;
 }
