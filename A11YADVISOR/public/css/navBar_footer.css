@@ -16,25 +16,28 @@
     max-width: 9rem;
     border-radius: 10px;
 }
-.navRight ul,
-li {
+.navRight > ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
     flex-direction: row;
 }
-.navRight li a {
+.navRight ul li a {
     text-decoration: none;
     color: inherit;
     padding: 10px;
 }
-
+.navRight ul li {
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+    padding: 10px;
+}
 #blueBG {
     transition: color 1s ease-in-out;
     background-color: var(--primary);
     border-radius: 50px;
-
     color: white;
 }
 
@@ -53,10 +56,10 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .footer-content {
     text-align: center;
-    position: absolute;
-    bottom: 0;
 }
