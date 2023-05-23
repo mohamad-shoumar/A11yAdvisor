@@ -1,0 +1,114 @@
+.title {
+    text-align: center;
+}
+.qoute {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+.author {
+    padding-bottom: 1rem;
+    margin-left: 4rem;
+    font-size: 16px;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+.sectionContainer {
+    background-color: white;
+    border-radius: 11px;
+    padding: 0 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing-list > li {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.landing-list1 > li {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.discriptionContainer {
+    width: 50%;
+    padding: 1rem 0;
+}
+.sectionContainer2 {
+    background-color: white;
+    border-radius: 11px;
+
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1Container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.img2Container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.image1 {
+    width: 20rem;
+    height: 10rem;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.image2 {
+    width: 20rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.main_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box_inmain {
+    height: 13rem;
+    width: 25%;
+    padding: 0 1rem;
+    background: #ecf4f7;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.23);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.box_inmain:hover .para_inbox {
+    color: #ecf4f7;
+}
+.box_inmain:hover {
+    background: var(--primary);
+    color: #ecf4f7;
+}
+.para_inbox {
+    text-align: center;
+}
+@media screen and (max-width: 1200px) {
+    .main_box {
+        flex-direction: column;
+    }
+    .box_inmain {
+        margin: 20px;
+        width: 80%;
+        justify-content: center;
+    }
+    .sectionContainer2,
+    .sectionContainer {
+        flex-direction: column;
+    }
+}
