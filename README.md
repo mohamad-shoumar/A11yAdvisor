@@ -1,11 +1,8 @@
 # A11yAdvisor
 
-<img src="./readme/title1.svg"/>
-
 <br><br>
 
 <!-- project philosophy -->
-<img src="./readme/title2.svg"/>
 
 > A web app designed to help developer learn how to manually test sites for accessibility.
 
@@ -21,7 +18,6 @@
 <br><br>
 
 <!-- Prototyping -->
-<img src="./readme/title3.svg"/>
 
 > We designed AAARDVARK using wireframes, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
 
@@ -29,13 +25,11 @@
 
 > |     | Landing                             | Form                             |
 > | --- | ----------------------------------- | -------------------------------- |
-> |     | ![fsdaf](./readme/demo/landing.png) | ![fsdaf](./readme/demo/form.jpg) |
+> |     | ![fsdaf](./readme/demo/landing.png) | ![fsdaf](./readme/demo/form.png) |
 
 > |     | Guide                             | Logs                             |
 > | --- | --------------------------------- | -------------------------------- |
-> |     | ![fsdaf](./readme/demo/guide.png) | ![fsdaf](./readme/demo/Logs.jpg) |
-
-<img src="./readme/title4.svg"/>
+> |     | ![fsdaf](./readme/demo/guide.png) | ![fsdaf](./readme/demo/Logs.png) |
 
 > This is a small demo serving as a walkthrough of the app:
 
