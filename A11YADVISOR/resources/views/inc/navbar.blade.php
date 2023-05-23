@@ -1,6 +1,6 @@
 <nav class="navbar">
     <div class="navLeft">
-        <img class="logoImg" src="{{ asset('images/logoSmallsvg.svg') }}" alt="logo of the app, it has the AAARDVAK word and under it accessibility, next to them is the icon of the animal">
+        <img class="logoImg" src="{{ asset('images/logos.svg') }}" alt="logo of the app, it has the AAARDVAK word, next to it is the icon of the animal">
     </div>
     <div class="navRight">
         <ul>
