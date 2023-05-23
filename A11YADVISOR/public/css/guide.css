@@ -1,0 +1,40 @@
+.title {
+    text-align: center;
+}
+.section {
+    background-color: white;
+    display: flex;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+.main {
+    display: flex;
+}
+.section > h2 {
+    padding: 0 1rem;
+}
+.steps,
+.fail {
+    width: 50%;
+    border: 1px solid var(--neutral-2);
+    padding: 0 1rem;
+}
+.fail > h3 {
+    padding-left: 1.2rem;
+}
+.steps > ul > li {
+    margin-bottom: 1rem;
+}
+.fail > ul > li {
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 800px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
