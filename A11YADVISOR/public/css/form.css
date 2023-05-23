@@ -10,14 +10,17 @@
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
     padding: 1rem 2rem;
     display: flex;
-    flex-direction: column;
+
     gap: 0.5rem;
-    max-width: 30vw;
+    min-width: 45vw;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+}
+
+.form-group label {
+    margin-right: 1rem;
 }
 .form-field {
-    display: block;
     width: 100%;
     padding: 8px 16px;
     line-height: 25px;
