@@ -5,6 +5,7 @@
 @endsection
 
 @section('content')
+  <h1>Rate a Website</h1>
     <div class="wrapper">
     <div class="formContainer">
   <form >

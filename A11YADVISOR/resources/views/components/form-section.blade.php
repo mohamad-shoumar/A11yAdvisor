@@ -2,8 +2,8 @@
 <div class="section">
     <h4>{{ $title }}</h4>
     <div class="form-group">
-      <input type="radio" name="{{ $resultName }}" id="pass_{{$resultId}}"  value="pass"> Pass
-      <input type="radio" name="{{ $resultName }}" id="fail_{{$resultId}}" value="fail"> Fail
+      <input type="radio" name="{{ $resultName }}" id="pass_{{$resultId}}"  value="pass"> <label for="pass_{{ $resultId }}">Pass</label>
+      <input  type="radio" name="{{ $resultName }}" id="fail_{{$resultId}}" value="fail">   <label for="fail_{{ $resultId }}">Fail</label>
     </div>
     <div class="form-group" id="{{ $failReasonsId }}" style="display:none">
       <label for="{{ $failReasonId }}">Reason for Failure:</label>

@@ -38,7 +38,7 @@
                  </ol>
             </div>
             <div class="img2Container">
-                <img class="image2" src="{{ asset('images/comp.png') }}" alt="image of accesibility icons on a keyboard">
+                <img class="image2" src="{{ asset('images/comp.png') }}" alt="image of PC screen with Accessibility in the middle of it">
             </div>
         </div>
     </section>
